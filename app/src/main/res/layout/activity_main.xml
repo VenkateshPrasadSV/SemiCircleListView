@@ -1,0 +1,31 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_launch">
+
+    <FrameLayout
+        android:id="@+id/arrow_container_fl"
+        android:layout_width="@dimen/arrow_container_width"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/arrow_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_arrow"/>
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/semi_circle_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@+id/arrow_container_fl"
+        android:layout_toRightOf="@+id/arrow_container_fl"
+        android:listSelector="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="0px"/>
+
+</RelativeLayout>

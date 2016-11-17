@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wenable.semicirclelistview.customviews.CustomLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circle_iv"
+        android:layout_width="@dimen/circle_image_width"
+        android:layout_height="@dimen/circle_image_width"/>
+
+</com.wenable.semicirclelistview.customviews.CustomLinearLayout>

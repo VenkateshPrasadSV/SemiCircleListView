@@ -17,7 +17,7 @@ import android.widget.ListView;
 import android.widget.AbsListView.OnScrollListener;
 
 import com.wenable.semicirclelistview.R;
-import com.wenable.semicirclelistview.adpters.SemiCircleListAdapter;
+import com.wenable.semicirclelistview.adapters.SemiCircleListAdapter;
 import com.wenable.semicirclelistview.utils.ScreenDimenUtils;
 
 /**

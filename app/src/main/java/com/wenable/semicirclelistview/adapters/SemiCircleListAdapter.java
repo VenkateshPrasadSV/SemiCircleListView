@@ -1,4 +1,4 @@
-package com.wenable.semicirclelistview.adpters;
+package com.wenable.semicirclelistview.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
